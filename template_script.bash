@@ -68,7 +68,7 @@ succ() {
 
 showdate() {
   local _date
-  _date=$(date +%d-%H.%M)
+  _date=$(date +%F_%R:%S)
   printf "$_date"
 }
 
